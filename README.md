@@ -3,7 +3,7 @@ Deep learning project for credit card fraud detection using DNN and Autoencoder.
 
 # Credit Card Fraud Detection using Deep Learning
 
-## 📘 Overview
+##  Overview
 This project implements two deep learning models for detecting fraudulent credit card transactions:
 1. **Supervised Model:** Deep Neural Network (DNN)
 2. **Unsupervised Model:** Autoencoder (Anomaly Detection)
@@ -12,12 +12,12 @@ Both models are compared in terms of AUC, Precision, Recall, and F1-score.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 Dataset: [Credit Card Fraud Detection (Kaggle)](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
 ---
 
-## 🧩 Libraries Used
+##  Libraries Used
 - Python 3.10+
 - PyTorch
 - Pandas, NumPy
@@ -26,7 +26,7 @@ Dataset: [Credit Card Fraud Detection (Kaggle)](https://www.kaggle.com/mlg-ulb/c
 
 ---
 
-## 🧠 Execution Steps
+##  Execution Steps
 1. Upload dataset in Colab.
 2. Run all cells in order:
    - Data preprocessing
@@ -39,7 +39,7 @@ Dataset: [Credit Card Fraud Detection (Kaggle)](https://www.kaggle.com/mlg-ulb/c
 
 ---
 
-## 🏁 Results
+##  Results
 
 | Model | AUC | Precision | Recall | F1 |
 |--------|-----|------------|--------|----|
@@ -48,12 +48,13 @@ Dataset: [Credit Card Fraud Detection (Kaggle)](https://www.kaggle.com/mlg-ulb/c
 
 ---
 
-## 👩‍💻 Team Members
-- **Surbhi** — Model design, Autoencoder implementation, result visualization  
-- **[Teammate Name]** — Data preprocessing, DNN model training, documentation
+##  Team Members
+- **Surbhi Shukla** - Designed and implemented the Deep Neural Network (DNN) model using PyTorch.
+- Tuned hyperparameters, handled model training & validation.
+- Created comparative visualizations (ROC, precision-recall). 
+- **Shreyash Kadam** - Performed data preprocessing and EDA (data cleaning, feature scaling, imbalance handling).
+- Helped design the Autoencoder architecture and anomaly detection logic.
+- Assisted in evaluation metrics and result interpretation.
+- **Chandan** - Developed report and README documentation, including project overview, workflow, and insights.
+- Worked on model comparison and created plots.Documentation, Visualization.
 
----
-
-## 🧾 Notes
-- SHAP explainability was attempted but skipped due to long runtime.  
-- Both models can be deployed using Flask + PyTorch for real-time detection.
